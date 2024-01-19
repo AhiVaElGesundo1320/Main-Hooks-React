@@ -6,7 +6,7 @@ export const Button = ({ children}) => {
     const className = 'button-' + theme;
   return (
     <div>
-        <button className={className}>
+        <button className={`rounded-lg ${className}`} style={{backgroundColor:'gray', color:'white'}}>
             {children}
         </button>
     </div>

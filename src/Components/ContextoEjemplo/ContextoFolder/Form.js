@@ -7,9 +7,11 @@ export const Form = ({children}) => {
     <div>
         <form>
             <Panel title='Welcome'>
+            <div className='my-5'>
             <Button>
                 Sing up
             </Button>
+            </div>
             <Button>
                 Login
             </Button>

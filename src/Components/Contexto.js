@@ -43,9 +43,9 @@ export const Contexto = () => {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-evenly">
-        <NavLink to={"/pruebadecontenxto"}>Prueba/Ejemplo de contexto</NavLink>
-        <NavLink to={"/principal"}>Otro ejemplo con contexto</NavLink>
+      <div className="w-full flex justify-evenly my-3">
+        <NavLink className='rounded-lg' style={{backgroundColor:'gray', color:'white'}} to={"/pruebadecontenxto"}>Prueba/Ejemplo de contexto</NavLink>
+        <NavLink className='rounded-lg' style={{backgroundColor:'gray', color:'white'}} to={"/principal"}>Otro ejemplo con contexto</NavLink>
       </div>
     </div>
   );
