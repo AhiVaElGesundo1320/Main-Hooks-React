@@ -1,0 +1,10 @@
+.main-class {
+    font-size: 34px;
+    background-color: gray;
+    transition: background-color 2s linear, font-size 2s ease-in-out;
+    
+}
+.main-class:hover {
+    font-size: 59px;
+    background-color: rgb(194, 193, 193);
+}
