@@ -28,7 +28,7 @@ export const Contexto = () => {
           </li>
         </ul>
       </div>
-      <div className=" flex p-8">
+      <div className="flex flex-col p-8 sm:flex sm:p-8 ">
         <div>
           <img src={Captura2} alt="imagenImport" width="500px" />
         </div>
@@ -43,9 +43,9 @@ export const Contexto = () => {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-evenly my-3">
-        <NavLink className='rounded-lg' style={{backgroundColor:'gray', color:'white'}} to={"/pruebadecontenxto"}>Prueba/Ejemplo de contexto</NavLink>
-        <NavLink className='rounded-lg' style={{backgroundColor:'gray', color:'white'}} to={"/principal"}>Otro ejemplo con contexto</NavLink>
+      <div className="sm:w-full sm:flex sm:flex-row sm:justify-evenly my-3 flex flex-col items-center w-screen">
+        <NavLink className='rounded-lg  m-3' style={{backgroundColor:'gray', color:'white'}} to={"/pruebadecontenxto"}>Prueba/Ejemplo de contexto</NavLink>
+        <NavLink className='rounded-lg  m-3' style={{backgroundColor:'gray', color:'white'}} to={"/principal"}>Otro ejemplo con contexto</NavLink>
       </div>
     </div>
   );

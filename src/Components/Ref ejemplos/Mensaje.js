@@ -28,22 +28,22 @@ export const Mensaje = () => {
       </NavLink>
       <div className="flex flex-col items-center m-8">
         <h1>Mensaje</h1>
-        <div>
+        <div className="my-5">
           <p>
             Usando el useState y el useEffect junto con el useRef se pueden
             hacer cosas interesantes, la ventaja del useRef es que al persistir
             entre renderizados puede memorizar ciertos valores
           </p>
         </div>
-        <div className="flex">
+        <div className="flex flex-col">
           <img src={Captura16} alt="Captura de mensajes" />
           <div className="flex flex-col justify-between ">
-            <p>
-              Primero declaramos el estado y la referencia, ambos con un string
+            <p className="rounded my-3" style={{ backgroundColor: "black", color: "white" }}>
+              -Primero declaramos el estado y la referencia, ambos con un string
               vacio como estado incial
             </p>
-            <p>
-              Seguido en el useEffect llamamos a la referencia con su debida
+            <p className="rounded my-3" style={{ backgroundColor: "black", color: "white" }}>
+              -Seguido en el useEffect llamamos a la referencia con su debida
               propiedad current, esta referencia sera igual al estado, este
               ultimo lo estableceremos como dependencia ya que queremos que se
               ejecute el efecto cada que el estado cambie{" "}
@@ -51,18 +51,18 @@ export const Mensaje = () => {
                 "(recordar que el efecto se ejecuta despues de cada renderizado)"
               }
             </p>
-            <p>
-              Por ultimo en la funcion controladora se llama a la funcion
+            <p className="rounded my-3" style={{ backgroundColor: "black", color: "white" }}>
+              -Por ultimo en la funcion controladora se llama a la funcion
               actualizadora del estado y se pone e.target.value ahi, esto para
               tomar el texto actual en el campo de entrada
             </p>
           </div>
         </div>
-        <div className="flex flex-row m-9">
+        <div className="flex flex-col m-9">
             <img src={Captura17} alt="captura de message"/>
             <div className="flex flex-col justify-center">
-                <p>
-                    Finalmente se llama la funcion dentro de un onChange
+                <p className="rounded my-3" style={{ backgroundColor: "black", color: "white" }}>
+                    -Finalmente se llama la funcion dentro de un onChange
                 </p>
             </div>
         </div>
