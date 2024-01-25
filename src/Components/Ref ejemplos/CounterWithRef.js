@@ -25,14 +25,14 @@ export const CounterWithRef = () => {
             trabaje en conjunto como por ejemplo un contador de clicks
           </p>
         </div>
-        <div div className="flex flex-row ">
+        <div div className="flex flex-col ">
           <img src={Captura12} alt="ejemplo Clicks Counter"/>
           <p className="rounded my-2" style={{backgroundColor:'black', color:'white'}}>
             -Empezmos establecinedo el useState vacido para poder trabajar libremente y el useRef en 0 que es desde donde inicara el contador de clicks
           </p>
         </div>
         <div  className="flex flex-col my-8 ">
-          <img src={Captura13} alt='Codigo ejemplo de clicks counter' width='600px'/>
+          <img src={Captura13} alt='Codigo ejemplo de clicks counter'/>
           <p className="rounded my-2" style={{backgroundColor:'black', color:'white'}}>
             Seguidamente vamos a establecer el codigo en un controlador de eventos, para poder obetener el estado actual del ref recuerder llamar la referncia y agregar su .current, esto para acceder al estado         
           </p>

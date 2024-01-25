@@ -30,7 +30,7 @@ export const Cronometro = () => {
         </NavLink>
       <div className="flex flex-col items-center">
         <h2>Cronometro con useState, useEffect y useRef</h2>
-        <div className="flex flex-row">
+        <div className="flex flex-col">
           <img src={Captura14} alt="ejemplo crono " />
           <div className="flex flex-col justify-around mx-2">
           <p className="rounded my-2" style={{backgroundColor:'black', color:'white'}}>
